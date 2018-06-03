@@ -4,28 +4,27 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class="bg-content">
   <ion-col col-12>
     <div class="top-line"></div>
     <div class="header-app"></div>
-    <ion-icon name="cube" class="icon-cube"></ion-icon>
+    <img class="logo" src="https://github.com/daniloagostinho/van-share/blob/master/objetos/App-VanShare3.png?raw=true" alt="">
   </ion-col>
-
   <ion-grid>
     <ion-row>
       <ion-col col-12>
         <form (ngSubmit)="logForm()">
           <ion-item>
             <ion-label> Nome</ion-label>
-            <ion-input type="text" [(ngModel)]="todo.nome" placeholder="José ricardo" name="Nome"></ion-input>
+            <ion-input disabled type="text" [(ngModel)]="todo.nome" placeholder="José ricardo" name="Nome"></ion-input>
           </ion-item>
           <ion-item>
             <ion-label>Email</ion-label>
-            <ion-input [(ngModel)]="todo.preco" placeholder="jose.ricardo@gmail.com" name="Email"></ion-input>
+            <ion-input disabled [(ngModel)]="todo.preco" placeholder="jose.ricardo@gmail.com" name="Email"></ion-input>
           </ion-item>
           <ion-item>
-            <ion-label>Descricao</ion-label>
-            <ion-textarea [(ngModel)]="todo.descricao" placeholder="09988787887" name="CPF"></ion-textarea>
+            <ion-label>CPF</ion-label>
+            <ion-input  disabled [(ngModel)]="todo.descricao" placeholder="09988787887" name="CPF"></ion-input >
           </ion-item>
         </form>
       </ion-col>
@@ -36,13 +35,13 @@
       <ion-col col->
         <ion-item>
           <ion-label color="primary" fixed>
-            <ion-icon name="home"></ion-icon>
+            <img src="https://github.com/daniloagostinho/van-share/blob/master/objetos/11.png?raw=true" alt="">
           </ion-label>
           <ion-input type="tel" placeholder=""></ion-input>
         </ion-item>
         <ion-item>
           <ion-label color="primary" fixed>
-            <ion-icon name="hammer"></ion-icon>
+            <img src="https://github.com/daniloagostinho/van-share/blob/master/objetos/13.png?raw=true" alt="">
           </ion-label>
           <ion-icon name="git-network"></ion-icon>
           <ion-input type="tel" placeholder=""></ion-input>
@@ -50,12 +49,14 @@
       </ion-col>
 
       <ion-col col-12>
-        <h4 class="text-home">Expediente</h4>
+        <h4 class="text-home">Periodo de trabalho</h4>
       </ion-col>
 
       <ion-col col-6>
         <ion-item>
-          <ion-label>Horas entrada</ion-label>
+          <ion-label>
+              <img src="https://github.com/daniloagostinho/van-share/blob/master/objetos/6.png?raw=true" alt="">
+          </ion-label>
           <ion-select multiple="true">
             <ion-option>7h</ion-option>
             <ion-option>8h</ion-option>
@@ -68,7 +69,9 @@
       </ion-col>
       <ion-col col-6>
         <ion-item>
-          <ion-label>Horas saida</ion-label>
+          <ion-label>
+            <img src="https://github.com/daniloagostinho/van-share/blob/master/objetos/7.png?raw=true" alt="">
+          </ion-label>
           <ion-select multiple="true">
             <ion-option>7h</ion-option>
             <ion-option>8h</ion-option>
@@ -81,8 +84,9 @@
       </ion-col>
 
       <ion-col col-12>
-        <button ion-button block outline class="botao-style" (click)="goToConfirmacaoComponent()"> PROSSEGUIR
-          <ion-icon class="botao-rodape" name="arrow-dropright-circle"></ion-icon>
+        <button class="botao-proseguir" ion-button block outline class="botao-style" (click)="goToConfirmacaoComponent()">
+          PROSSEGUIR
+          <ion-icon class="botao-rodape" name="checkmark"></ion-icon>
         </button>
       </ion-col>
     </ion-row>

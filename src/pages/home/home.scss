@@ -1,31 +1,73 @@
 page-home {
-  .top-line {height: 20px; background: #003B4C}
-  .header-app {
-    width: 100%;
-    height: 150px;
-    background: #22BDEE;
-  }
 
-  .icon-cube {
-    display: inline-block;
-    font-size: 91px;
-    top: -50px;
-    position: relative;
-    left: 130px;
-  }
+    .top-line {
+        height: 20px;
+        background: #b3dc34
+    }
+    .header-app {
+        width: 100%;
+        height: 150px;
+        background: #C1FF00;
+    }
+    .logo {
+        position: relative;
+        z-index: 9999;
+        top: -57px;
+        left: 160px;
+    }
+    .item-input .label-md,
+    .item-select .label-md,
+    .item-datetime .label-md {
+        color: #333;
+        font-weight: bold;
+    }
+    ion-grid {
+        background: linear-gradient(#E0DFCE, #E8E6D3);
+        color: 333;
+    }
+    .item-md {
+        background-color: transparent !important;
+        padding: 5px;
+        font-size: 20px;
+        color: 333;
+    }
+    ion-select {
+        background: transparent;
+    }
+    .icon-cube {
+        display: inline-block;
+        font-size: 91px;
+        top: -50px;
+        position: relative;
+        left: 130px;
+    }
+    .bg-content {
+      background: linear-gradient(#E0DFCE, #E8E6D3);
+    }
+    ion-grid.grid {
+      margin-top: -10px;
+    }
+    .text-home {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 31px;
+    }
 
-  .text-home {
-    text-align: center;
-    padding-top: 20px;
-  }
-
-  .botao-rodape {
-    margin-left: 10px;
-    font-size: 30px;
-  }
-
-  .botao-style {
-    font-weight: bold;
-  }
-
+    .input-wrapper {
+      border-bottom: 3px solid #fff;
+    }
+    .botao-rodape {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .botao-style {
+        font-weight: bold;
+        background: #b3dc34;
+        padding: 10px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        border: 0px solid;
+        border-radius: 6px;
+    }
 }
