@@ -1,0 +1,8 @@
+{
+  "name": "van-share",
+  "app_id": "567c6572",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
