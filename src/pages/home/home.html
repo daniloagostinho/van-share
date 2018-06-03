@@ -16,15 +16,15 @@
         <form (ngSubmit)="logForm()">
           <ion-item>
             <ion-label> Nome</ion-label>
-            <ion-input disabled type="text" [(ngModel)]="todo.nome" placeholder="José ricardo" name="Nome"></ion-input>
+            <ion-input disabled type="text" [(ngModel)]="todo.nome" placeholder="Bruna" name="Nome"></ion-input>
           </ion-item>
           <ion-item>
             <ion-label>Email</ion-label>
-            <ion-input disabled [(ngModel)]="todo.preco" placeholder="jose.ricardo@gmail.com" name="Email"></ion-input>
+            <ion-input disabled [(ngModel)]="todo.preco" placeholder="bruna.negrini@gmail.com" name="Email"></ion-input>
           </ion-item>
           <ion-item>
             <ion-label>CPF</ion-label>
-            <ion-input  disabled [(ngModel)]="todo.descricao" placeholder="09988787887" name="CPF"></ion-input >
+            <ion-input  disabled [(ngModel)]="todo.descricao" placeholder="632.811.090-12" name="CPF"></ion-input >
           </ion-item>
         </form>
       </ion-col>
@@ -86,7 +86,7 @@
       <ion-col col-12>
         <button class="botao-proseguir" ion-button block outline class="botao-style" (click)="goToConfirmacaoComponent()">
           PROSSEGUIR
-          <ion-icon class="botao-rodape" name="checkmark"></ion-icon>
+          <img class="botao-rodape" src="https://github.com/daniloagostinho/van-share/blob/master/objetos/15.png?raw=true" alt="">
         </button>
       </ion-col>
     </ion-row>

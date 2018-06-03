@@ -1,57 +1,109 @@
 confirmacao {
-    .line-top {
-        width: 100%;
-        height: 32px;
-        background: #C1FF00;
+    .top-line {
+        height: 20px;
+        background: #b3dc34
     }
-    .header {
+    .header-app {
         width: 100%;
-        height: 120px;
-        background: url('https://github.com/daniloagostinho/van-share/blob/master/objetos/16.png?raw=true');
+        height: 150px;
+        background: #C1FF00;
+        position: relative;
+        top: -19px;
+    }
+    .header-app h3 {
+        font-size: 30px;
+        color: #003B4C;
+    }
+    p.text-alinhamento b {
+        font-size: 24px;
+    }
+     span.text {
+      font-size: 18px;
+      margin-top: 10px;
+  }
+    img.img-logo {
+        margin: 40px;
     }
     .header-bg {
         width: 100%;
-        height: 210px;
         background: #003B4C;
+        position: relative;
+        top: -46px;
+        height: 190px;
     }
     .img-logo {
         float: left;
     }
+
+    button.botao-style.button.button-md.button-outline.button-outline-md {
+      background: linear-gradient(#C1FF00, #AADB15);
+      color: #003B4C;
+      border: 0;
+      width: 100%;
+      margin-left: -20px;
+      padding: 10px;
+      font-size: 20px;
+    }
+    .no-padding {
+        padding: 0px !important;
+    }
+
+    .bg-horarios-van {
+      background: #003B4C;
+      font-size: 30px;
+    }
+
+    .bg-horarios-van h3 {
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .imagem-passageiros {
+      display: block;
+      margin: 0 auto;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+  }
     .text-alinhamento {
         position: relative;
-        top: 22px;
+        top: 50px;
         left: 10px;
         color: #fff;
         font-size: 18px;
     }
     .bg-horarios {
-      height: 240px;
-      background:#003B4C;
-      color: #fff;
+        height: 150px;
+        background: #003B4C;
+        color: #fff;
+        text-align: center;
     }
 
+    .bg-horarios h3 {
+      font-size: 36px;
+    }
     h6 {
-      text-align: center;
+        text-align: center;
     }
     .valor {
-      font-weight: bold;
-      font-size: 20px;
+        font-weight: bold;
+        font-size: 20px;
     }
-
-    .texto-valor  {
-      text-align: center;
+    .texto-valor {
+        text-align: center;
     }
-
     .descricao-valor {
-      color: green;
-      font-weight: bold;
-      font-size: 20px;
-      padding-top: 15px;
-      float: left;
-      margin-left: 178px;
+        color: green;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 15px;
+        float: left;
+        margin-left: 178px;
     }
-
     .ion-6 {
-      margin-left: 37px;
-  }
+        margin-left: 37px;
+    }
 }
