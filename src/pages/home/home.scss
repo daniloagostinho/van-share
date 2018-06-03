@@ -1,3 +1,31 @@
 page-home {
+  .top-line {height: 20px; background: #003B4C}
+  .header-app {
+    width: 100%;
+    height: 150px;
+    background: #22BDEE;
+  }
+
+  .icon-cube {
+    display: inline-block;
+    font-size: 91px;
+    top: -43px;
+    position: relative;
+    left: 130px;
+  }
+
+  .text-home {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .botao-rodape {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
+  .botao-style {
+    font-weight: bold;
+  }
 
 }

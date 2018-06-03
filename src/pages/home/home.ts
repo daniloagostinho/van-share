@@ -14,6 +14,12 @@ export class HomePage {
 
   }
 
+  todo = {}
+
+  logForm(form) {
+    console.log(form.value)
+  }
+
   goToConfirmacao() {
     this.navCtrl.push(ConfirmacaoComponent);
    }
@@ -25,5 +31,4 @@ export class HomePage {
    goToNotificacoes() {
     this.navCtrl.push(NotificoesComponent);
    }
-
 }
