@@ -14,6 +14,8 @@ import { ConfirmacaoComponent } from '../components/confirmacao/confirmacao';
 import { CadastroComponent } from '../components/cadastro/cadastro';
 import { NotificoesComponent } from '../components/notificoes/notificoes';
 
+import { Geolocation } from '@ionic-native/geolocation';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -43,6 +45,7 @@ import { NotificoesComponent } from '../components/notificoes/notificoes';
   providers: [
     StatusBar,
     SplashScreen,
+    Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
