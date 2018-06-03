@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ConfirmacaoComponent } from '../../components/confirmacao/confirmacao';
-import { CadastroComponent } from '../../components/cadastro/cadastro';
-import { NotificoesComponent } from '../../components/notificoes/notificoes';
 
 @Component({
   selector: 'page-home',
@@ -10,25 +8,24 @@ import { NotificoesComponent } from '../../components/notificoes/notificoes';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController) {}
 
-  }
-
-  todo = {}
+  todo = {};
 
   logForm(form) {
     console.log(form.value)
   }
 
-  goToConfirmacao() {
+  goToConfirmacaoComponent() {
     this.navCtrl.push(ConfirmacaoComponent);
    }
 
-   goToCadastro() {
-    this.navCtrl.push(CadastroComponent);
-   }
+  //  goToCadastro() {
+  //   this.navCtrl.push(CadastroComponent);
+  //  }
 
-   goToNotificacoes() {
-    this.navCtrl.push(NotificoesComponent);
-   }
+  //  goToNotificacoes() {
+  //   this.navCtrl.push(NotificoesComponent);
+  //  }
+
 }

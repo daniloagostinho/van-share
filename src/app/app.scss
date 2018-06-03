@@ -14,3 +14,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+*{
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+ion-app.md [padding] .scroll-content {
+  padding: 10px;
+}
