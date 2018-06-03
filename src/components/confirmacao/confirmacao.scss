@@ -1,4 +1,57 @@
 confirmacao {
-  .line-top {width: 100%; height: 32px; background: #C1FF00;}
-  .header {width: 100%; height: 120px; background: #aed931;}
+    .line-top {
+        width: 100%;
+        height: 32px;
+        background: #C1FF00;
+    }
+    .header {
+        width: 100%;
+        height: 120px;
+        background: #aed931;
+    }
+    .header-bg {
+        width: 100%;
+        height: 210px;
+        background: #003B4C;
+    }
+    .img-logo {
+        float: left;
+    }
+    .text-alinhamento {
+        position: relative;
+        top: 22px;
+        left: 10px;
+        color: #fff;
+        font-size: 18px;
+    }
+    .bg-horarios {
+      height: 240px;
+      background:#003B4C;
+      color: #fff;
+    }
+
+    h6 {
+      text-align: center;
+    }
+    .valor {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .texto-valor  {
+      text-align: center;
+    }
+
+    .descricao-valor {
+      color: green;
+      font-weight: bold;
+      font-size: 20px;
+      padding-top: 15px;
+      float: left;
+      margin-left: 178px;
+    }
+
+    .ion-6 {
+      margin-left: 37px;
+  }
 }

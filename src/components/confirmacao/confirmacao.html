@@ -2,18 +2,82 @@
   <ion-row>
     <ion-col col-12>
       <div class="line-top">line</div>
-      <div class="header">dfsd</div>
-      <div class="header-bg">dfds</div>
+      <div class="header">
+        <h3>Uma van share para você</h3>
+      </div>
     </ion-col>
   </ion-row>
 
   <ion-row>
-    <ion-col col-3>
-      <img src="" alt="">
+
+    <ion-col col-12>
+      <ion-col col-4>
+        <div class="header-bg">
+          <img class="img-logo" src="https://github.com/daniloagostinho/van-share/blob/master/objetos/9.png?raw=true" alt="">
+
+          <p class="text-alinhamento">
+            <b>Motorista</b> Jose Ricardo
+            <br />
+            <b>Placa</b> DRL 0957
+          </p>
+        </div>
+      </ion-col>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-6>
+      <ion-item>
+        <ion-label>Horas entrada</ion-label>
+        <ion-select multiple="true">
+          <ion-option>7h</ion-option>
+          <ion-option>8h</ion-option>
+          <ion-option>10h</ion-option>
+          <ion-option>11h</ion-option>
+          <ion-option>12h</ion-option>
+          <ion-option>13h</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-col>
+    <ion-col col-6>
+      <ion-item>
+        <ion-label>Horas saida</ion-label>
+        <ion-select multiple="true">
+          <ion-option>7h</ion-option>
+          <ion-option>8h</ion-option>
+          <ion-option>10h</ion-option>
+          <ion-option>11h</ion-option>
+          <ion-option>12h</ion-option>
+          <ion-option>13h</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-12 class="bg-horarios ">
+      <h6 class="">Esses sao os horarios para encontrar sua Vanshare em frente ao local cadastrado.</h6>
+
+    </ion-col>
+    <ion-col col-12 class="texto-valor">
+      <b class="descricao-valor">Valor mensal R$ 180,00</b>
+    </ion-col>
+    <ion-col col-6>
+      <div class="ion-6">
+        <button ion-button outline class="botao-style" (click)="goToConfirmacaoComponent()"> PROSSEGUIR
+          <ion-icon class="botao-rodape" name="arrow-dropright-circle"></ion-icon>
+        </button>
+      </div>
+    </ion-col>
+    <ion-col col-6>
+      <div class="ion-6">
+        <button ion-button outline class="botao-style" (click)="goToNotificacoes()">
+          FAZER PARTE
+          <ion-icon name="checkmark"></ion-icon>
+        </button>
+      </div>
     </ion-col>
 
-    <ion-col col-6>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad tempora atque exercitationem porro sint, facilis voluptate officia omnis! Sint distinctio hic expedita eaque nam maiores magnam? Aliquid, velit laudantium.
-      </ion-col>
   </ion-row>
+
 </ion-grid>

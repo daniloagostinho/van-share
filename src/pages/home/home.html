@@ -17,20 +17,20 @@
         <form (ngSubmit)="logForm()">
           <ion-item>
             <ion-label> Nome</ion-label>
-            <ion-input type="text" [(ngModel)]="todo.nome" name="Nome"></ion-input>
+            <ion-input type="text" [(ngModel)]="todo.nome" placeholder="José ricardo" name="Nome"></ion-input>
           </ion-item>
           <ion-item>
-            <ion-label>Preco</ion-label>
-            <ion-input [(ngModel)]="todo.preco" name="Email"></ion-input>
+            <ion-label>Email</ion-label>
+            <ion-input [(ngModel)]="todo.preco" placeholder="jose.ricardo@gmail.com" name="Email"></ion-input>
           </ion-item>
           <ion-item>
             <ion-label>Descricao</ion-label>
-            <ion-textarea [(ngModel)]="todo.descricao" name="CPF"></ion-textarea>
+            <ion-textarea [(ngModel)]="todo.descricao" placeholder="09988787887" name="CPF"></ion-textarea>
           </ion-item>
         </form>
       </ion-col>
       <ion-col col-12>
-        <h4 class="text-home">Enderecos</h4>
+        <h4 class="text-home">Endereços</h4>
       </ion-col>
 
       <ion-col col->
@@ -42,7 +42,7 @@
         </ion-item>
         <ion-item>
           <ion-label color="primary" fixed>
-            <ion-icon name="home"></ion-icon>
+            <ion-icon name="hammer"></ion-icon>
           </ion-label>
           <ion-icon name="git-network"></ion-icon>
           <ion-input type="tel" placeholder=""></ion-input>
@@ -81,11 +81,12 @@
       </ion-col>
 
       <ion-col col-12>
-          <button ion-button block outline class="botao-style" (click)="goToConfirmacaoComponent()"> PROSSEGUIR  <ion-icon class="botao-rodape" name="arrow-dropright-circle"></ion-icon></button>
+        <button ion-button block outline class="botao-style" (click)="goToConfirmacaoComponent()"> PROSSEGUIR
+          <ion-icon class="botao-rodape" name="arrow-dropright-circle"></ion-icon>
+        </button>
       </ion-col>
     </ion-row>
   </ion-grid>
-
 
   <!-- <button (click)="goToConfirmacao()">Confirmacao</button>
   <button (click)="goToCadastro()">Cadastro</button>
